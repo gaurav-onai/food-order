@@ -1,0 +1,30 @@
+.example-card {
+  max-width:100%;
+  background-color: #fff;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+              0px 1px 1px 0px rgba(0, 0, 0, 0.14), 
+              0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  padding: 40px;
+  margin: 30px;
+}
+
+.example-card:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  z-index: 1000;
+}
+
+
+.example-header-image {
+  background-size: cover;
+}
+
+p {
+    color: grayscale;
+    word-spacing: 2px;
+}
+
+mat-grid-tile {
+    background: lightblue;
+  }
